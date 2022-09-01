@@ -1,0 +1,46 @@
+Methods and function are same thing 
+
+Sysntax :
+		
+		public static int yourMethodName(int a , int b) {
+		 // body or write you code here 
+		}
+		
+		
+		The Syntax shown above includes : 
+		
+				Modifire : it defines the access type of the method and it is optional to use  // public ,private, protected  
+				
+				
+				returnType : Method may return a value // when you return type is void then nothing will be return and any data type can be return type 
+				
+				
+				nameOfMethod : This is the method name. The method signature consists of the method name and the parameter list.
+				
+				
+				Parameter List : The list of parameters, it is the type order and number of parameters of a method . These are optional method may contain
+				zero parameters 
+				
+				
+				Method body : The method body defines what the method does with the statements .
+				
+				
+		Method Overloading :
+		
+		When a class has two or more methods by the same name but different parameters, it is known as method overloading.
+		
+		E.g::
+			int maxOf(int a , int b ) {
+		
+			}
+		
+			int maxOf(int a , int b , int c){
+			
+			} 
+			
+			int maxOf(float a , float b){
+			
+			} 
+		
+				
+				
