@@ -1,0 +1,23 @@
+Object : 
+		1. Object have some state and behavior . 
+		2. an Object can be defiend as an instance of a class 
+		3. an object contains an address  and takes up some space in memory 
+					e.g : a white board , a blue pen , a mac laptop etc 
+					
+Class : 
+		1. A class is a blueprint for the object.
+		2. It is a logical entity.
+		3. Class doesn't consume any space 
+		4. We can create many objects from a class 
+					e.g : pen class , laptop class , board class   
+		
+		 			
+					
+		How to create object of a class ? 
+		
+		ClassName ObjName = new ClassName();
+		
+					e.g.
+					
+					phone Oneplush = new phone();
+					phone Iphone = new phone();

@@ -1,0 +1,40 @@
+ A constructor is similar to a method ( but not actually a method) that is invoked automatically when an object is instantiated.
+
+			class ClassName {
+			
+					ClassName(){ // there is no return methods 
+					
+					   // constructor body
+					   
+					}
+					
+			}
+			
+			
+No-Arg Constructors : 
+		If a java constructor does not accept any parameters, it is a no-arg constructor.
+			
+			class ClassName{
+			
+					int a ;
+					
+					ClassName(){
+					
+							a = 5 ; // initialize here 
+							
+						}
+			}
+			
+			
+Constructors overloading : 
+				Similar like method overloading, you can also overload constructors if two or more constructors are different in parameters.
+				
+				class Test{
+					int a ; 
+					Test(){
+						a = 5 ; // initialize here
+					}
+					Test(int b){
+						a = b ; // initialize here
+					}
+				}
